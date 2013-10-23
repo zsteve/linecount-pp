@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1367731502 source:h:\linecountpp\file\file.cpp
+	"file.h"
+	<windows.h>
+	<string>
+	<list>
+	"..\errorlog\log.h"
+
+1367729390 h:\linecountpp\file\file.h
+	<windows.h>
+	<list>
+	<string>
+
+1371793294 h:\linecountpp\file\list.h
+
+1376051626 h:\linecountpp\errorlog\log.h
+	<iostream>
+
+1376269400 source:h:\linecountpp\file\list.cpp
+	"list.h"
+	<stdlib.h>
+	<string.h>
+
+1376516866 source:h:\linecountpp\main\linecount++\main.cpp
+	<iostream>
+	<windows.h>
+	<cstdlib>
+	<cstdio>
+	<list>
+	"..\..\file\file.h"
+	"..\..\errorlog\log.h"
+	"..\..\srcparse\srcparse\srcparse\srcparse.h"
+
+1376516980 h:\linecountpp\srcparse\srcparse\srcparse\srcparse.h
+	<cstring>
+	<cstdlib>
+	<iostream>
+
+1376516980 source:h:\linecountpp\srcparse\srcparse\srcparse\srcparse.cpp
+	"srcparse.h"
+
+1376231076 source:h:\linecountpp\errorlog\log.cpp
+	"log.h"
+
+1376334200 source:g:\linecountpp\file\list.cpp
+	"list.h"
+	<stdlib.h>
+	<string.h>
+
+1371858094 g:\linecountpp\file\list.h
+
+1376516980 source:g:\linecountpp\srcparse\srcparse\srcparse\srcparse.cpp
+	"srcparse.h"
+
+1376516980 g:\linecountpp\srcparse\srcparse\srcparse\srcparse.h
+	<cstring>
+	<cstdlib>
+	<iostream>
+
+1376231076 source:g:\linecountpp\errorlog\log.cpp
+	"log.h"
+
+1376051626 g:\linecountpp\errorlog\log.h
+	<iostream>
+
+1376517028 source:g:\linecountpp\main\linecount++\main.cpp
+	<iostream>
+	<windows.h>
+	<cstdlib>
+	<cstdio>
+	<list>
+	"..\..\file\file.h"
+	"..\..\errorlog\log.h"
+	"..\..\srcparse\srcparse\srcparse\srcparse.h"
+
+1367729390 g:\linecountpp\file\file.h
+	<windows.h>
+	<list>
+	<string>
+
+1367731502 source:g:\linecountpp\file\file.cpp
+	"file.h"
+	<windows.h>
+	<string>
+	<list>
+	"..\errorlog\log.h"
+

@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1371793284 source:c:\documents and settings\user\desktop\linecountpp\file\list.cpp
+	"list.h"
+	<stdlib.h>
+	<string.h>
+
+1371793293 c:\documents and settings\user\desktop\linecountpp\file\list.h
+
+1371794235 source:c:\documents and settings\user\desktop\linecountpp\file\main.cpp
+	<iostream>
+	"file.h"
+	"..\errorlog\log.h"
+
+1371794172 c:\documents and settings\user\desktop\linecountpp\file\file.h
+	<windows.h>
+	"list.h"
+
+1371794272 source:c:\documents and settings\user\desktop\linecountpp\file\file.cpp
+	"file.h"
+	<windows.h>
+	"..\errorlog\log.h"
+
+1371793516 c:\documents and settings\user\desktop\linecountpp\errorlog\log.h
+	<cstdio>
+
+1376269400 source:h:\linecountpp\file\list.cpp
+	"list.h"
+	<stdlib.h>
+	<string.h>
+
+1371793294 h:\linecountpp\file\list.h
+
+1376423624 source:h:\linecountpp\file\file.cpp
+	"file.h"
+	<windows.h>
+	<string>
+	<list>
+	"..\errorlog\log.h"
+
+1376402762 h:\linecountpp\file\file.h
+	<windows.h>
+	<list>
+	<string>
+
+1376051626 h:\linecountpp\errorlog\log.h
+	<iostream>
+
+1376402952 source:h:\linecountpp\file\main.cpp
+	<iostream>
+	"file.h"
+	"..\errorlog\log.h"
+
+1376231076 source:h:\linecountpp\errorlog\log.cpp
+	"log.h"
+
+979378498 source:e:\linecountpp\file\file.cpp
+	"file.h"
+	<windows.h>
+	<string>
+	<list>
+	"..\errorlog\log.h"
+
+979378272 e:\linecountpp\file\file.h
+	<windows.h>
+	<list>
+	<string>
+
+1376112826 e:\linecountpp\errorlog\log.h
+	<iostream>
+
+979378334 source:e:\linecountpp\file\main.cpp
+	<iostream>
+	"file.h"
+	"..\errorlog\log.h"
+
+1376292276 source:e:\linecountpp\errorlog\log.cpp
+	"log.h"
+
