@@ -1,8 +1,0 @@
-linecount-pp
-============
-
-C/C++ source code line counter utility
-
-Note : Platform dependent, will only work in Win32
-
-(C) zsteve 2013

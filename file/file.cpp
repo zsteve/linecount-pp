@@ -275,13 +275,13 @@ bool directory::listdir(string dir)
     {
         return false;
     }
-    if(findData.dwFileAttributes == FILE_ATTRIBUTE_DIRECTORY && (strcmpi(findData.cFileName, "."))\
+    if((findData.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY) && (strcmpi(findData.cFileName, "."))\
             && (strcmpi(findData.cFileName, "..")) && (strcmpi(findData.cFileName, "...")))
     {
         string newDir=(dir+"\\"+findData.cFileName);
         listdir(newDir);
     }
-    else if ((findData.dwFileAttributes!=FILE_ATTRIBUTE_DIRECTORY))
+    else if (!(findData.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY))
     {
         file* foundFile=new file();
         string newPath=dir;
@@ -296,13 +296,15 @@ bool directory::listdir(string dir)
         {
             break;
         }
-        if(findData.dwFileAttributes == FILE_ATTRIBUTE_DIRECTORY && (strcmpi(findData.cFileName, "."))\
-                && (strcmpi(findData.cFileName, "..")) && (strcmpi(findData.cFileName, "...")))
+        if((findData.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY)
+                && (strcmpi(findData.cFileName, "."))\
+                && (strcmpi(findData.cFileName, ".."))\
+                && (strcmpi(findData.cFileName, "...")))
         {
             string newDir=(dir+"\\"+findData.cFileName);
             listdir(newDir);
         }
-        else if ((findData.dwFileAttributes!=FILE_ATTRIBUTE_DIRECTORY))
+        else if (!(findData.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY))
         {
             file* foundFile=new file();
             string newPath=dir;

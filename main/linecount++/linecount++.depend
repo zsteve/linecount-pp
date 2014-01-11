@@ -85,3 +85,39 @@
 	<list>
 	"..\errorlog\log.h"
 
+1389404042 source:c:\users\stephen\code\projects\linecount-pp\file\file.cpp
+	"file.h"
+	<windows.h>
+	<string>
+	<list>
+	"..\errorlog\log.h"
+
+1387852644 c:\users\stephen\code\projects\linecount-pp\file\file.h
+	<windows.h>
+	<list>
+	<string>
+
+1387852644 c:\users\stephen\code\projects\linecount-pp\errorlog\log.h
+	<iostream>
+
+1389403635 source:c:\users\stephen\code\projects\linecount-pp\main\linecount++\main.cpp
+	<iostream>
+	<windows.h>
+	<cstdlib>
+	<cstdio>
+	<list>
+	"..\..\file\file.h"
+	"..\..\errorlog\log.h"
+	"..\..\srcparse\srcparse\srcparse\srcparse.h"
+
+1387852644 c:\users\stephen\code\projects\linecount-pp\srcparse\srcparse\srcparse\srcparse.h
+	<cstring>
+	<cstdlib>
+	<iostream>
+
+1387852644 source:c:\users\stephen\code\projects\linecount-pp\srcparse\srcparse\srcparse\srcparse.cpp
+	"srcparse.h"
+
+1387852644 source:c:\users\stephen\code\projects\linecount-pp\errorlog\log.cpp
+	"log.h"
+

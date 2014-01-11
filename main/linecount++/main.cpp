@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
         cout << "error : no directory specified" << endl;
         return 0;
     }
-    d.setpath(argv[1]);
+    d.setpath("C:\\Users\\Stephen\\Code\\projects\\dataquery");
     if(argc>2 && !strcmpi(argv[2], "-v"))
         gError.setverbose(true);
     cout << d.getpath() << endl;
